@@ -652,11 +652,11 @@ export default StyleSheet.create({
     },
     "sidebar[data-color=\"purple\"] nav liactive a": {
         "backgroundColor": "#2d6cdf",
-        "boxShadow": "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 12px 20px -10px #2d6cdf"
     },
     "off-canvas-sidebar[data-color=\"purple\"] nav liactive a": {
         "backgroundColor": "#2d6cdf",
-        "boxShadow": "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 12px 20px -10px #2d6cdf"
     },
     "off-canvas-sidebar nav > li > a": {
         "color": "#FFFFFF"
@@ -6223,8 +6223,8 @@ export default StyleSheet.create({
         "borderTop": "none"
     },
     "card [data-background-color=\"purple\"]": {
-        "background": "linear-gradient(60deg, #ab47bc, #8e24aa)",
-        "boxShadow": "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+        "background": "linear-gradient(60deg, #327bff, #2d6cdf)",
+        "boxShadow": "0 12px 20px -10px #2d6cdf"
     },
     "card [data-background-color=\"blue\"]": {
         "background": "linear-gradient(60deg, #26c6da, #00acc1)",
