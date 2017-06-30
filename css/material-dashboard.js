@@ -267,7 +267,7 @@ export default StyleSheet.create({
         "color": "#ff9800"
     },
     "text-primary": {
-        "color": "#9c27b0"
+        "color": "#2d6cdf"
     },
     "text-danger": {
         "color": "#f44336"
@@ -1319,107 +1319,107 @@ export default StyleSheet.create({
         "color": "#999999"
     },
     "btnbtn-primary": {
-        "boxShadow": "0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12)",
-        "backgroundColor": "#9c27b0",
+        "boxShadow": "0 2px 2px 0 #2d6cdf",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "navbar navbar-nav > li > abtnbtn-primary": {
-        "boxShadow": "0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12)",
-        "backgroundColor": "#9c27b0",
+        "boxShadow": "0 2px 2px 0 #2d6cdf",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "btnbtn-primary:hover": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 14px 26px -12px #2d6cdf"
     },
     "btnbtn-primary:focus": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 14px 26px -12px #2d6cdf"
     },
     "btnbtn-primary:active": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 14px 26px -12px #2d6cdf"
     },
     "btnbtn-primaryactive": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "btnbtn-primary:active:focus": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "btnbtn-primary:active:hover": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "btnbtn-primaryactive:focus": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "btnbtn-primaryactive:hover": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "open > btnbtn-primarydropdown-toggle": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "open > btnbtn-primarydropdown-toggle:focus": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "open > btnbtn-primarydropdown-toggle:hover": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "navbar navbar-nav > li > abtnbtn-primary:hover": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 14px 26px -12px #2d6cdf"
     },
     "navbar navbar-nav > li > abtnbtn-primary:focus": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 14px 26px -12px #2d6cdf"
     },
     "navbar navbar-nav > li > abtnbtn-primary:active": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 14px 26px -12px rgba(156, 39, 176, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 14px 26px -12px #2d6cdf"
     },
     "navbar navbar-nav > li > abtnbtn-primaryactive": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "navbar navbar-nav > li > abtnbtn-primary:active:focus": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "navbar navbar-nav > li > abtnbtn-primary:active:hover": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "navbar navbar-nav > li > abtnbtn-primaryactive:focus": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "navbar navbar-nav > li > abtnbtn-primaryactive:hover": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "open >    navbar navbar-nav > li > abtnbtn-primarydropdown-toggle": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "open >    navbar navbar-nav > li > abtnbtn-primarydropdown-toggle:focus": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "open >    navbar navbar-nav > li > abtnbtn-primarydropdown-toggle:hover": {
-        "backgroundColor": "#9c27b0",
+        "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF"
     },
     "btnbtn-primarydisabled": {
@@ -1568,45 +1568,45 @@ export default StyleSheet.create({
     },
     "btnbtn-primarybtn-simple": {
         "backgroundColor": "transparent",
-        "color": "#9c27b0",
+        "color": "#2d6cdf",
         "boxShadow": "none"
     },
     "navbar navbar-nav > li > abtnbtn-primarybtn-simple": {
         "backgroundColor": "transparent",
-        "color": "#9c27b0",
+        "color": "#2d6cdf",
         "boxShadow": "none"
     },
     "btnbtn-primarybtn-simple:hover": {
         "backgroundColor": "transparent",
-        "color": "#9c27b0"
+        "color": "#2d6cdf"
     },
     "btnbtn-primarybtn-simple:focus": {
         "backgroundColor": "transparent",
-        "color": "#9c27b0"
+        "color": "#2d6cdf"
     },
     "btnbtn-primarybtn-simple:active": {
         "backgroundColor": "transparent",
-        "color": "#9c27b0"
+        "color": "#2d6cdf"
     },
     "navbar navbar-nav > li > abtnbtn-primarybtn-simple:hover": {
         "backgroundColor": "transparent",
-        "color": "#9c27b0"
+        "color": "#2d6cdf"
     },
     "navbar navbar-nav > li > abtnbtn-primarybtn-simple:focus": {
         "backgroundColor": "transparent",
-        "color": "#9c27b0"
+        "color": "#2d6cdf"
     },
     "navbar navbar-nav > li > abtnbtn-primarybtn-simple:active": {
         "backgroundColor": "transparent",
-        "color": "#9c27b0"
+        "color": "#2d6cdf"
     },
     "btnbtn-info": {
-        "boxShadow": "0 2px 2px 0 rgba(0, 188, 212, 0.14), 0 3px 1px -2px rgba(0, 188, 212, 0.2), 0 1px 5px 0 rgba(0, 188, 212, 0.12)",
+        "boxShadow": "0 2px 2px 0 #2d6cdf",
         "backgroundColor": "#00bcd4",
         "color": "#FFFFFF"
     },
     "navbar navbar-nav > li > abtnbtn-info": {
-        "boxShadow": "0 2px 2px 0 rgba(0, 188, 212, 0.14), 0 3px 1px -2px rgba(0, 188, 212, 0.2), 0 1px 5px 0 rgba(0, 188, 212, 0.12)",
+        "boxShadow": "0 2px 2px 0 #2d6cdf",
         "backgroundColor": "#00bcd4",
         "color": "#FFFFFF"
     },
@@ -6000,32 +6000,32 @@ export default StyleSheet.create({
     "navbar dropdown-menu li a:hover": {
         "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 12px 20px -10px #2d6cdf"
     },
     "navbar dropdown-menu li a:focus": {
         "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 12px 20px -10px #2d6cdf"
     },
     "navbar dropdown-menu li a:active": {
         "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 12px 20px -10px #2d6cdf"
     },
     "navbarnavbar-default dropdown-menu li a:hover": {
         "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 12px 20px -10px #2d6cdf"
     },
     "navbarnavbar-default dropdown-menu li a:focus": {
         "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 12px 20px -10px #2d6cdf"
     },
     "navbarnavbar-default dropdown-menu li a:active": {
         "backgroundColor": "#2d6cdf",
         "color": "#FFFFFF",
-        "boxShadow": "0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2)"
+        "boxShadow": "0 12px 20px -10px #2d6cdf"
     },
     "card": {
         "display": "inline-block",
