@@ -33,12 +33,12 @@
 		        Tip 2: you can also add an image using data-image tag
 		    -->
 
-			<div class="logo">
-				<a href="dashboard.html" class="simple-text">
-					<i class="material-icons">account_balance</i>
-					Ahawal Bank
-				</a>
-			</div>
+				<div class="logo">
+					<a href="dashboard.html" class="simple-text">
+						<i class="material-icons">account_balance</i>
+						Ahawal Bank
+					</a>
+				</div>
 
 	    	<div class="sidebar-wrapper">
 				<ul class="nav">
@@ -50,7 +50,7 @@
 	                </li>
 
 									<!-- User Profile Menu -->
-	                <li class="active">
+	                <li>
 	                    <a href="user.html">
 	                        <i class="material-icons">person</i>
 	                        <p>My Profile</p>
@@ -67,8 +67,8 @@
 													<p>Fund Transfer</p>
 												</a>
 											</li>
-											<li style="padding-left:20px">
-												<a href="change-pw.html">
+											<li class="active" style="padding-left:20px">
+												<a href="#">
 													<i class="material-icons">lock</i>
 													<p>change password</p>
 												</a>
@@ -81,7 +81,7 @@
 	                        <p>Notifications</p>
 	                    </a>
 	                </li>
-										<li >
+										<li>
                         <a href="#">
 	                        <i class="material-icons">settings_power</i>
 	                        <p>Log Out</p>
@@ -101,7 +101,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Profile</a>
+						<a class="navbar-brand" href="#">Password Change</a>
 					</div>
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
@@ -145,112 +145,93 @@
 	        <div class="content">
 	            <div class="container-fluid">
 	                <div class="row">
-										<!--profile widget view-->
-										<div class="col-md-4">
-												<div class="card card-profile">
-													<div class="card-avatar">
-														<a href="#pablo">
-															<img class="img" src="img/faces/marc.jpg" />
-														</a>
-													</div>
 
-													<div class="content">
-														<h6 class="category text-gray">Engineer</h6>
-														<h4 class="card-title">Svasthika Shehan</h4>
-														<span class="card-content" >
-															<h6>Mobile - 011123456789</h6>
-															<h6>Email - svasthika.sehan@gmail.com</h6>
-															<address>
-																Address  - <br>
-																NO:148, 1st Cross Lane<br>
-																Vouxhall Street<br>
-																Colombo 02<br>
-																Sri Lanka
-																</address>
-														</span>
-
-													</div>
-												</div>
-											</div>
 
 											<!--account details Changes-->
-	                    <div class="col-md-8">
+	                    <div class="col-md-6">
 	                        <div class="card">
 	                            <div class="card-header" data-background-color="purple">
-	                                <h4 class="title">Change Private Information</h4>
-									<p class="category">Complete your profile</p>
+	                                <h4 class="title">Change Your Account Password</h4>
+									<p class="category">Here you Can Change our Selected Account Password accept Login ID</p>
 	                            </div>
 	                            <div class="card-content">
 	                                <form>
 	                                    <div class="row">
-	                                        <div class="col-md-5">
-												<div class="form-group label-floating">
-													<label class="control-label">W K Svasthika Sehan Samarasinhe </label>
-													<input type="text" class="form-control" disabled>
-												</div>
-	                                        </div>
-
-	                                        <div class="col-md-4">
-												<div class="form-group label-floating">
-													<label class="control-label" >Email address</label>
-													<input type="email" class="form-control" value="svasthika.sehan@gmail.com" required>
-												</div>
-	                                        </div>
-	                                    </div>
-
-	                                    <div class="row">
-	                                        <div class="col-md-6">
-												<div class="form-group label-floating">
-													<label class="control-label">Fist Name</label>
-													<input type="text" class="form-control" value="Svasthika" required>
-												</div>
-	                                        </div>
-	                                        <div class="col-md-6">
-												<div class="form-group label-floating">
-													<label class="control-label">Last Name</label>
-													<input type="text" class="form-control" value="Sehan" required>
-												</div>
-	                                        </div>
-	                                    </div>
-
-	                                    <div class="row">
 	                                        <div class="col-md-12">
-												<div class="form-group label-floating">
-													<label class="control-label">Adress</label>
-													<input type="text" class="form-control" value="NO:148, 1st Cross Lane, Vouxhall Street" required>
-												</div>
+																					<div class="form-group label-floating">
+																						<label class="control-label">Previous Password </label>
+																						<input type="password" class="form-control">
+																					</div>
 	                                        </div>
+
+ 																				 </div>
+
+
+	                                    <div class="row">
+																				<div class="col-md-12">
+																					<div class="form-group label-floating">
+																						<label class="control-label">New Password </label>
+																						<input type="password" class="form-control">
+																					</div>
+																				</div>
+
 	                                    </div>
 
 	                                    <div class="row">
-	                                        <div class="col-md-4">
-												<div class="form-group label-floating">
-													<label class="control-label">City</label>
-													<input type="text" class="form-control" value="Colombo" required>
-												</div>
-	                                        </div>
-	                                        <div class="col-md-4">
-												<div class="form-group label-floating">
-													<label class="control-label">Country</label>
-													<input type="text" class="form-control" value="Sri Lanka" required>
-												</div>
-	                                        </div>
-	                                        <div class="col-md-4">
-												<div class="form-group label-floating">
-													<label class="control-label">Postal Code</label>
-													<input type="text" class="form-control" value="002" >
-												</div>
-	                                        </div>
+																				<div class="col-md-12">
+																				 <div class="form-group label-floating">
+																					 <label class="control-label">Re-enter New Password </label>
+																					 <input type="password" class="form-control">
+																				 </div>
+																			 </div>
 	                                    </div>
 
 
-	                                    <button  type="submit" value="Submit" class="btn btn-primary pull-right">Update Profile</button>
+	                                    <button type="submit" class="btn btn-primary pull-right">Update My Password</button>
 	                                    <div class="clearfix"></div>
 	                                </form>
 	                            </div>
 	                        </div>
 	                    </div>
 
+											<div class="col-md-6">
+	                        <div class="card">
+	                            <div class="card-header" data-background-color="purple">
+	                                <h4 class="title">Read this Carefully</h4>
+									<p class="category">Please read this and take a idea how your password must be</p>
+	                            </div>
+	                            <div class="card-content">
+
+																<div>
+																	<h4><i class="material-icons">info</i> Please Note</h4>
+																		<p>As the Previos Agriment with the bank you can't Change you're Log ID Becouse it's unique to your Account. <br>
+																			There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+																			 by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
+																			  you need to be sure there isn't anything embarrassing hidden in the middle of text.
+																		 </p>
+
+																	<div class="clearfix"></div>
+
+																	<h4><i class="material-icons">info</i> Passwords Must Meet Complexity Requirements</h4>
+
+																		<p> These facilities enforce the use of secure passwords that follow these guidelines:
+																			<ol >
+																			  <li>Passwords must have at least six characters.</li>
+																			  <li>Passwords can’t contain the user name or parts of the user’s full name, such as his first name.</li>
+																			  <li>Passwords must use at least three of the four available character types: lowercase letters, uppercase letters, numbers, and symbols.</li>
+																			</ol>
+																			<p>To enforce these rules, enable the Passwords Must Meet Complexity Requirements policy. </p>
+
+
+																		</p>
+																</div>
+
+
+	                                    <div class="clearfix"></div>
+
+	                            </div>
+	                        </div>
+	                    </div>
 	                </div>
 	            </div>
 	        </div>

@@ -34,11 +34,12 @@
 		        Tip 2: you can also add an image using data-image tag
 		    -->
 
-			<div class="logo">
-				<a href="http://www.creative-tim.com" class="simple-text">
-					Ahawal Bank
-				</a>
-			</div>
+				<div class="logo">
+					<a href="#" class="simple-text">
+						<i class="material-icons">account_balance</i>
+						Ahawal Bank
+					</a>
+				</div>
 
 	    	<div class="sidebar-wrapper">
 	            <ul class="nav">
@@ -55,39 +56,15 @@
 	                    </a>
 	                </li>
 	                <li>
-	                    <a href="table.html">
-	                        <i class="material-icons">content_paste</i>
-	                        <p>Table List</p>
-	                    </a>
-	                </li>
-	                <li>
-	                    <a href="typography.html">
-	                        <i class="material-icons">library_books</i>
-	                        <p>Typography</p>
-	                    </a>
-	                </li>
-	                <li>
-	                    <a href="icons.html">
-	                        <i class="material-icons">bubble_chart</i>
-	                        <p>Icons</p>
-	                    </a>
-	                </li>
-	                <li>
-	                    <a href="maps.html">
-	                        <i class="material-icons">location_on</i>
-	                        <p>Maps</p>
-	                    </a>
-	                </li>
-	                <li>
 	                    <a href="notifications.html">
 	                        <i class="material-icons text-gray">notifications</i>
 	                        <p>Notifications</p>
 	                    </a>
 	                </li>
-					<li class="active-pro">
-	                    <a href="upgrade.html">
-	                        <i class="material-icons">unarchive</i>
-	                        <p>Logout</p>
+									<li>
+	                    <a href="#">
+	                       <i class="material-icons">settings_power</i>
+	                        <p>Log Out</p>
 	                    </a>
 	                </li>
 	            </ul>
@@ -108,6 +85,27 @@
 					</div>
 					<div class="collapse navbar-collapse">
 						<ul class="nav navbar-nav navbar-right">
+							<li style="margin-right:10px;">
+
+								<div class="dropdown" >
+									<a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+								    	Change Account
+								    	<b class="caret"></b>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Saving Account</a></li>
+										<li><a href="#">Joint Account</a></li>
+										<li class="divider"></li>
+										<li><a href="#">Fixed Deposit</a></li>
+
+									</ul>
+								</div>
+
+							</li>
+
+							<li>
+								<a href="fund-tra.html" role=" button" class="btn btn-primary btn-sm">Send Money&nbsp;<i class="material-icons">send</i></a>
+							</li>
 							<li>
 								<a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
 									<i class="material-icons">location_on</i>
@@ -121,30 +119,21 @@
 									<p class="hidden-lg hidden-md">Notifications</p>
 								</a>
 								<ul class="dropdown-menu">
-									<li><a href="#">Mike John responded to your email</a></li>
-									<li><a href="#">You have 5 new tasks</a></li>
-									<li><a href="#">You're now friend with Andrew</a></li>
+									<li><a href="#">Your Last Transtraction Successfull!...click for more info</a></li>
+									<li><a href="#">We Updates Our Policies from Ahawal Bank</a></li>
+									<li><a href="#">Notifocation</a></li>
 									<li><a href="#">Another Notification</a></li>
 									<li><a href="#">Another One</a></li>
 								</ul>
 							</li>
 							<li>
-								<a href="#pablo" class="dropdown-toggle" data-toggle="dropdown">
+								<a href="user.html">
 	 							   <i class="material-icons">person</i>
-	 							   <p class="hidden-lg hidden-md">Profile</p>
+	 							  <div class="ripple-container"> <p class="hidden-lg hidden-md">Profile</p></div>
 		 						</a>
 							</li>
 						</ul>
 
-						<form class="navbar-form navbar-right" role="search">
-							<div class="form-group  is-empty">
-								<input type="text" class="form-control" placeholder="Search">
-								<span class="material-input"></span>
-							</div>
-							<button type="submit" class="btn btn-white btn-round btn-just-icon">
-								<i class="material-icons">search</i><div class="ripple-container"></div>
-							</button>
-						</form>
 					</div>
 				</div>
 			</nav>
@@ -152,72 +141,55 @@
 			<div class="content">
 				<div class="container-fluid">
 					<div class="row">
-						<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="card card-stats">
-								<div class="card-header" data-background-color="orange">
-									<i class="material-icons">content_copy</i>
+								<div class="card-header" data-background-color="blue">
+									<i class="material-icons">account_balance_wallet</i>
 								</div>
 								<div class="card-content">
-									<p class="category">Used Space</p>
-									<h3 class="title">49/50<small>GB</small></h3>
+									<p class="category">Account Balance</p>
+									<h3 class="title"><small>Rs</small> 65,340.36</h3>
 								</div>
 								<div class="card-footer">
 									<div class="stats">
-										<i class="material-icons text-danger">warning</i> <a href="#pablo">Get More Space...</a>
+										<i class="material-icons">access_time</i> updated 4 minutes ago
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="card card-stats">
 								<div class="card-header" data-background-color="green">
-									<i class="material-icons">store</i>
+									<i class="material-icons">trending_up</i>
 								</div>
 								<div class="card-content">
-									<p class="category">Revenue</p>
-									<h3 class="title">$34,245</h3>
+									<p class="category">Last Deposit</p>
+									<h3 class="title"><small>Rs</small> 12,200.00</h3>
 								</div>
 								<div class="card-footer">
 									<div class="stats">
-										<i class="material-icons">date_range</i> Last 24 Hours
+										<i class="material-icons">date_range</i> 2 Days ago - Kegalle Branch
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="card card-stats">
 								<div class="card-header" data-background-color="red">
-									<i class="material-icons">info_outline</i>
+									<i class="material-icons">trending_down</i>
 								</div>
 								<div class="card-content">
-									<p class="category">Fixed Issues</p>
-									<h3 class="title">75</h3>
+									<p class="category">Last Withdrow</p>
+									<h3 class="title"><small>Rs</small> 500.00</h3>
 								</div>
 								<div class="card-footer">
 									<div class="stats">
-										<i class="material-icons">local_offer</i> Tracked from Github
+										<i class="material-icons">date_range</i> 7 Hours ago - Unian Place-ATM
 									</div>
 								</div>
 							</div>
 						</div>
 
-						<div class="col-lg-3 col-md-6 col-sm-6">
-							<div class="card card-stats">
-								<div class="card-header" data-background-color="blue">
-									<i class="fa fa-twitter"></i>
-								</div>
-								<div class="card-content">
-									<p class="category">Followers</p>
-									<h3 class="title">+245</h3>
-								</div>
-								<div class="card-footer">
-									<div class="stats">
-										<i class="material-icons">update</i> Just Updated
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 
 					<div class="row">
 						<div class="col-md-4">
@@ -226,8 +198,8 @@
 									<div class="ct-chart" id="dailySalesChart"></div>
 								</div>
 								<div class="card-content">
-									<h4 class="title">Daily Sales</h4>
-									<p class="category"><span class="text-success"><i class="fa fa-long-arrow-up"></i> 55%  </span> increase in today sales.</p>
+									<h4 class="title">Monthly Deposits</h4>
+									<p class="category"><span class="text-success"><i class="fa fa-long-arrow-up"></i> 55%  </span> increase in Deposits.</p>
 								</div>
 								<div class="card-footer">
 									<div class="stats">
@@ -243,12 +215,12 @@
 									<div class="ct-chart" id="emailsSubscriptionChart"></div>
 								</div>
 								<div class="card-content">
-									<h4 class="title">Email Subscriptions</h4>
-									<p class="category">Last Campaign Performance</p>
+									<h4 class="title">Monthly Account Balance</h4>
+									<p class="category">monthly account balance statistic view</p>
 								</div>
 								<div class="card-footer">
 									<div class="stats">
-										<i class="material-icons">access_time</i> campaign sent 2 days ago
+										<i class="material-icons">access_time</i> updated 4 minutes ago
 									</div>
 								</div>
 
@@ -258,15 +230,15 @@
 						<div class="col-md-4">
 							<div class="card">
 								<div class="card-header card-chart" data-background-color="red">
-									<div class="ct-chart" id="completedTasksChart"></div>
+									<div class="ct-chart" id="emailsSubscriptionChart"></div>
 								</div>
 								<div class="card-content">
-									<h4 class="title">Completed Tasks</h4>
-									<p class="category">Last Campaign Performance</p>
+									<h4 class="title">Monthly Withdrowal</h4>
+									<p class="category"><span class="text-danger"><i class="fa fa-long-arrow-up"></i> 12%  </span> increase in Withdrowal. from Last month</p>
 								</div>
 								<div class="card-footer">
 									<div class="stats">
-										<i class="material-icons">access_time</i> campaign sent 2 days ago
+										<i class="material-icons">access_time</i> updated 4 minutes ago
 									</div>
 								</div>
 							</div>
@@ -274,302 +246,118 @@
 					</div>
 
 					<div class="row">
-						<div class="col-lg-6 col-md-12">
-							<div class="card card-nav-tabs">
-								<div class="card-header" data-background-color="purple">
-									<div class="nav-tabs-navigation">
-										<div class="nav-tabs-wrapper">
-											<span class="nav-tabs-title">Tasks:</span>
-											<ul class="nav nav-tabs" data-tabs="tabs">
-												<li class="active">
-													<a href="#profile" data-toggle="tab">
-														<i class="material-icons">bug_report</i>
-														Bugs
-													<div class="ripple-container"></div></a>
-												</li>
-												<li class="">
-													<a href="#messages" data-toggle="tab">
-														<i class="material-icons">code</i>
-														Website
-													<div class="ripple-container"></div></a>
-												</li>
-												<li class="">
-													<a href="#settings" data-toggle="tab">
-														<i class="material-icons">cloud</i>
-														Server
-													<div class="ripple-container"></div></a>
-												</li>
-											</ul>
+<!-- History Table Start -->
+							<div class="col-md-12">
+								<div class="card">
+										<div class="card-header" data-background-color="purple">
+												<h4 class="title">Account Transaction History</h4>
+												<p class="category">Here Recorded All the Account Trasaction with Deposits & Withdrows</p>
 										</div>
-									</div>
+										<div class="card-content table-responsive">
+												<table class="table">
+														<thead class="text-primary">
+															<th>Transaction ID</th>
+															<th>Date</th>
+															<th>Detail</th>
+															<th>Withdrawal</th>
+															<th>Deposit</th>
+															<th>Balance</th>
+														</thead>
+														<tbody>
+																<tr>
+																	<td>1</td>
+																	<td>30/06/2017</td>
+																	<td>ATM W/D</td>
+																	<td class="text-danger">- Rs:500</td>
+																	<td>---</td>
+																	<td>Rs:64,800.00</td>
+																</tr>
+																<tr>
+																	<td>2</td>
+																	<td>30/06/2017</td>
+																	<td>Cash Dep</td>
+																	<td>---</td>
+							<td class="text-success">- Rs:12,200</td>
+																	<td>Rs:65,340.36</td>
+																</tr>
+																<tr>
+																	<td>3</td>
+																	<td>24/06/2017</td>
+																	<td>Cash Dep</td>
+																	<td>---</td>
+							<td class="text-success">- Rs:8,200</td>
+																	<td>Rs:58,200.00</td>
+																</tr>
+																<tr>
+																	<td>4</td>
+																	<td>23/06/2017</td>
+																	<td>ATM W/D</td>
+																	<td class="text-danger">- Rs:1,000</td>
+																	<td>---</td>
+																	<td>Rs:50,000.00</td>
+																</tr>
+																<tr>
+																	<td>5</td>
+																	<td>17/06/2017</td>
+																	<td>Purchase</td>
+																	<td class="text-danger">- Rs:1,245.80</td>
+																	<td>---</td>
+																	<td>Rs:51,000.00</td>
+																</tr>
+																<tr>
+																	<td>6</td>
+																	<td>11/06/2017</td>
+																	<td>Interest</td>
+																	<td>---</td>
+							<td class="text-success">- Rs:12.75</td>
+																	<td>Rs:53,260.00</td>
+																</tr>
+
+																<tr>
+																	<td>7</td>
+																	<td>28/05/2017</td>
+																	<td>Purchase</td>
+																	<td class="text-danger">- Rs:560.00</td>
+																	<td>---</td>
+																	<td>Rs:52,750.80</td>
+																</tr>
+
+																<tr>
+																	<td>8</td>
+																	<td>24/05/2017</td>
+																	<td>Cash Dep</td>
+																	<td>---</td>
+							<td class="text-success">- Rs:3,000.00</td>
+																	<td>Rs:56,250.80</td>
+																</tr>
+
+																<tr>
+																	<td>9</td>
+																	<td>09/05/2017</td>
+																	<td>Purchase</td>
+																	<td class="text-danger">- Rs:36.00</td>
+																	<td>---</td>
+																	<td>Rs:53,100.80</td>
+																</tr>
+
+																<tr>
+																	<td>10</td>
+																	<td>02/05/2017</td>
+																	<td>Purchase</td>
+																	<td class="text-danger">- Rs:1480.80</td>
+																	<td>---</td>
+																	<td>Rs:53,250.80</td>
+																</tr>
+														</tbody>
+												</table>
+
+										</div>
 								</div>
-
-								<div class="card-content">
-									<div class="tab-content">
-										<div class="tab-pane active" id="profile">
-											<table class="table">
-												<tbody>
-													<tr>
-														<td>
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox" name="optionsCheckboxes" checked>
-																</label>
-															</div>
-														</td>
-														<td>Sign contract for "What are conference organizers afraid of?"</td>
-														<td class="td-actions text-right">
-															<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-																<i class="material-icons">edit</i>
-															</button>
-															<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-																<i class="material-icons">close</i>
-															</button>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox" name="optionsCheckboxes">
-																</label>
-															</div>
-														</td>
-														<td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
-														<td class="td-actions text-right">
-															<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-																<i class="material-icons">edit</i>
-															</button>
-															<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-																<i class="material-icons">close</i>
-															</button>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox" name="optionsCheckboxes">
-																</label>
-															</div>
-														</td>
-														<td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-														</td>
-														<td class="td-actions text-right">
-															<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-																<i class="material-icons">edit</i>
-															</button>
-															<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-																<i class="material-icons">close</i>
-															</button>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox" name="optionsCheckboxes" checked>
-																</label>
-															</div>
-														</td>
-														<td>Create 4 Invisible User Experiences you Never Knew About</td>
-														<td class="td-actions text-right">
-															<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-																<i class="material-icons">edit</i>
-															</button>
-															<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-																<i class="material-icons">close</i>
-															</button>
-														</td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
-										<div class="tab-pane" id="messages">
-											<table class="table">
-												<tbody>
-													<tr>
-														<td>
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox" name="optionsCheckboxes" checked>
-																</label>
-															</div>
-														</td>
-														<td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-														</td>
-														<td class="td-actions text-right">
-															<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-																<i class="material-icons">edit</i>
-															</button>
-															<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-																<i class="material-icons">close</i>
-															</button>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox" name="optionsCheckboxes">
-																</label>
-															</div>
-														</td>
-														<td>Sign contract for "What are conference organizers afraid of?"</td>
-														<td class="td-actions text-right">
-															<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-																<i class="material-icons">edit</i>
-															</button>
-															<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-																<i class="material-icons">close</i>
-															</button>
-														</td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
-										<div class="tab-pane" id="settings">
-											<table class="table">
-												<tbody>
-													<tr>
-														<td>
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox" name="optionsCheckboxes">
-																</label>
-															</div>
-														</td>
-														<td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
-														<td class="td-actions text-right">
-															<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-																<i class="material-icons">edit</i>
-															</button>
-															<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-																<i class="material-icons">close</i>
-															</button>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox" name="optionsCheckboxes" checked>
-																</label>
-															</div>
-														</td>
-														<td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-														</td>
-														<td class="td-actions text-right">
-															<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-																<i class="material-icons">edit</i>
-															</button>
-															<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-																<i class="material-icons">close</i>
-															</button>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<div class="checkbox">
-																<label>
-																	<input type="checkbox" name="optionsCheckboxes">
-																</label>
-															</div>
-														</td>
-														<td>Sign contract for "What are conference organizers afraid of?"</td>
-														<td class="td-actions text-right">
-															<button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-simple btn-xs">
-																<i class="material-icons">edit</i>
-															</button>
-															<button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-																<i class="material-icons">close</i>
-															</button>
-														</td>
-													</tr>
-												</tbody>
-											</table>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
-
-						<div class="col-lg-6 col-md-12">
-							<div class="card">
-	                            <div class="card-header" data-background-color="orange">
-	                                <h4 class="title">Employees Stats</h4>
-	                                <p class="category">New employees on 15th September, 2016</p>
-	                            </div>
-	                            <div class="card-content table-responsive">
-	                                <table class="table table-hover">
-	                                    <thead class="text-warning">
-	                                        <th>ID</th>
-	                                    	<th>Name</th>
-	                                    	<th>Salary</th>
-	                                    	<th>Country</th>
-	                                    </thead>
-	                                    <tbody>
-	                                        <tr>
-	                                        	<td>1</td>
-	                                        	<td>Dakota Rice</td>
-	                                        	<td>$36,738</td>
-	                                        	<td>Niger</td>
-	                                        </tr>
-	                                        <tr>
-	                                        	<td>2</td>
-	                                        	<td>Minerva Hooper</td>
-	                                        	<td>$23,789</td>
-	                                        	<td>Curaçao</td>
-	                                        </tr>
-	                                        <tr>
-	                                        	<td>3</td>
-	                                        	<td>Sage Rodriguez</td>
-	                                        	<td>$56,142</td>
-	                                        	<td>Netherlands</td>
-	                                        </tr>
-	                                        <tr>
-	                                        	<td>4</td>
-	                                        	<td>Philip Chaney</td>
-	                                        	<td>$38,735</td>
-	                                        	<td>Korea, South</td>
-	                                        </tr>
-	                                    </tbody>
-	                                </table>
-	                            </div>
-	                        </div>
-						</div>
-					</div>
-				</div>
-			</div>
-
 			<footer class="footer">
 				<div class="container-fluid">
-					<nav class="pull-left">
-						<ul>
-							<li>
-								<a href="#">
-									Home
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									Company
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									Portfolio
-								</a>
-							</li>
-							<li>
-								<a href="#">
-								   Blog
-								</a>
-							</li>
-						</ul>
-					</nav>
 					<p class="copyright pull-right">
-						&copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
+						&copy; 2017  Created by A Team
 					</p>
 				</div>
 			</footer>
